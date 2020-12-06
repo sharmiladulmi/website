@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: url(../3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: right;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.title{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #000;
+	font-size: 30px;
+}
+.detail{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.detail h1{
+	color: #fff;
+	font-size: 30px;
+}
+.detail2{
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.detail2 h1{
+	color: #fff;
+	font-size: 30px;
+}
+.detail3{
+	position: absolute;
+	top: 58%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.detail3 h1{
+	color: #fff;
+	font-size: 30px;
+}
+.detail4{
+	position: absolute;
+	top: 68%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.detail4 h1{
+	color: #fff;
+	font-size: 30px;
+}
